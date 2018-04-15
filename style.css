@@ -15,7 +15,14 @@ form * {
   height: 40px;
 }
 
+form label {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
 form button {
+  margin-top: 40px;
   max-width: 20%;
   display: inline;
 }
@@ -46,10 +53,16 @@ form #checks {
 
 form section {
   height: 200px;
+  margin-top: 50px;
+}
+
+form section label {
+  margin-top: 40px;
 }
 
 form .redletter {
   color: red;
+  text-align: right;
 }
 
 
@@ -59,6 +72,7 @@ form .redletter {
   background-repeat: no-repeat;
   height: 150px;
 }
+
 
 
 
